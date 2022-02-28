@@ -1,5 +1,5 @@
 {
-  "name": "PORTFOLIO-POWERED-BY-REACT-",
+  "name": "A-E",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,7 +29,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://garrettlb.github.io/Portfolio-powered-by-REACT-/",
   "eslintConfig": {
     "extends": [
       "react-app",

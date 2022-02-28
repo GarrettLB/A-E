@@ -6,9 +6,9 @@ function Header() {
   return (
     <div className="bg">
       <Row>
-        <Col xs={12} sm={12} md={6} lg={3}>
+        <Col xs={12} md={3}>
           <div>
-            <img className='screenshot' src={logo}></img>
+            <img className='logo' src={logo}></img>
           </div>
         </Col>
       </Row>

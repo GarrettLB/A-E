@@ -20,8 +20,9 @@ code {
     monospace;
 }
 
-.screenshot {
+.logo {
   max-width: 100%;
+  max-height: 10vh;
 }
 
 /* .header-logo {
@@ -29,7 +30,7 @@ code {
 } */
 
 .bg {
-  background-color: var(--lightred);
+  background-color: white;
 }
 
 .bg-offwhite {
@@ -58,7 +59,7 @@ code {
 }
 
 .icon-color {
-  color: var(--darkred);
+  color: var(--lightred);
 }
 
 .blue {
