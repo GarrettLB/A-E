@@ -1,0 +1,70 @@
+:root {
+  --darkred: rgb(120, 0, 0);
+  --lightred: rgb(193, 18, 31);
+  --offwhite: rgb(253, 240, 213);
+  --darkblue: rgb(0, 48, 73);
+  --lightblue: rgb(102, 155, 188);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.screenshot {
+  max-width: 100%;
+}
+
+/* .header-logo {
+
+} */
+
+.bg {
+  background-color: var(--lightred);
+}
+
+.bg-offwhite {
+  /* background-color: var(--offwhite); */
+  background-color: white;
+}
+
+.headerback {
+  background-color: var(--lightg);
+}
+
+.profile-pic {
+  max-height: 500px;
+}
+
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5.0rem;   
+}
+
+.icon-color {
+  color: var(--darkred);
+}
+
+.blue {
+  color: var(--darkblue);
+}
+
+.content-wrap {
+  padding-bottom: 5.0rem;
+}
